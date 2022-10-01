@@ -2,51 +2,30 @@
 
 ## Learning Goals
 
-- Practice passing arguments in via the command-line.
+- Learning Goal 1
+- Learning Goal 2
+
+## Introduction
+
+A 1-2 sentence summary of what will be covered.
 
 ## Instructions
 
-Given the `GroceryListDriver` class again, modify the program to take in the
-file as a command-line argument instead of prompting the user for the file path.
+Walk the student through any setup required to run the lesson (i.e.
+`npm install` and `npm start`).
 
-Reuse the last lab to implement the read and write methods and then make sure
-that everything passes the unit tests again.
+## Deliverables
 
-To implement the reading of command-line arguments, consider the following
-instructions and tips:
+List each of the deliverables the student must complete in order to finish the
+lab. Provide as much context as possible, including instructions on how to run
+the tests and other means of validating successful completion of deliverables.
 
-- Modify the `GroceryListDriver` class.
-  - Replace the `Scanner` object that is prompting the user for the file path
-    with getting the file path via the command-line.
-  - Refer to the Command-Line Arguments lesson as needed.
-- When running the `GroceryListDriver` class, pass in a file named
-  `grocery-list.txt`.
-- Make sure the unit tests all still pass successfully.
+## Conclusion
 
-## Example Output
+A short one or two paragraph summary of the contents of the lessons, recapping
+the learning goals.
 
-Consider the example output if no file is passed in via the command-line:
+## Resources
 
-```plaintext
-Please specify one file path as a command-line argument.
-```
-
-Consider the example output if we do pass in the file as a command-line
-argument:
-
-```plaintext
-Apples
-Bananas
-Cookies
-
-```
-
-## Stretch
-
-Along with passing the file path into the program via the command-line, also
-pass it the contents of the grocery list. If we were to implement this and then
-execute the Java program via the command-line, the command would look like this:
-
-```plaintext
-java GroceryListDriver grocery-list.txt Apples Bananas Cookies
-```
+- [Resource Link 1](example.com)
+- [Resource Link 2](example.com)
