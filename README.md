@@ -27,14 +27,14 @@ instructions and tips:
 
 Consider the example output if no file is passed in via the command-line:
 
-```plaintext
+```text
 Please specify one file path as a command-line argument.
 ```
 
 Consider the example output if we do pass in the file as a command-line
 argument:
 
-```plaintext
+```text
 Apples
 Bananas
 Cookies
@@ -47,6 +47,6 @@ Along with passing the file path into the program via the command-line, also
 pass it the contents of the grocery list. If we were to implement this and then
 execute the Java program via the command-line, the command would look like this:
 
-```plaintext
+```text
 java GroceryListDriver grocery-list.txt Apples Bananas Cookies
 ```
